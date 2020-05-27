@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <title>Map Image Understanding</title>
+</head>
+
+<body>
+    <div id='buttonContainer'>
+        <input type="file" id="fileinput" accept="image/*">
+        <!-- <select id="projection-menu"></select> -->
+        <!-- <button id='identify'>Identify...</button> -->
+        <p>Is a map?</p>
+        <button id='identify'>Identify...</button>
+        <input type="text" id="isMap">
+        <!-- <input type="checkbox" id="tissot" checked>Use Tissot's Indicatrix
+        <input type="checkbox" id="gedymin">Use Gedymin faces -->
+    </div>
+    <div id="mapContainer"></div>
+    <!-- <canvas id="canvas"></canvas> -->
+    <script src="display.js"></script>
+</body>
